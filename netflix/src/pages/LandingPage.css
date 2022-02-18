@@ -1,0 +1,126 @@
+.get-started {
+  height: 800px;
+  /* border: 1px solid blue; */
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("https://assets.nflxext.com/ffe/siteui/vlv3/ed0b5df9-ba9d-4534-bd09-57993daeda56/1c62fa7f-27da-453c-bcfc-4ffb726de69c/IN-en-20220214-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+  background-size: cover;
+  position: relative;
+  border-bottom: 10px solid #222222;
+}
+
+.navbar {
+  height: 20%;
+  /* border: 1px solid yellow; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+.navbar img {
+  width: 260px;
+  /* border: 1px solid red; */
+}
+
+.navbar > button {
+  height: 40px;
+  width: 110px;
+  background-color: #e50914;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+  letter-spacing: 1.1px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+}
+
+.navbar button:hover {
+  background-color: #ca0a14;
+  transition: 0.3s;
+}
+
+.email-box {
+  /* border: 1px solid greenyellow; */
+  color: white;
+  text-align: center;
+  margin-top: 100px;
+  letter-spacing: 1px;
+}
+
+.email-box h1 {
+  font-size: 64px;
+}
+
+.email-box h4 {
+  font-size: 30px;
+  margin-top: -18px;
+  font-weight: 400;
+}
+
+.email-box p {
+  font-size: 21px;
+  margin-top: -15px;
+}
+
+.email-box input {
+  border: none;
+  height: 68px;
+  width: 600px;
+  font-size: 20px;
+  outline: none;
+  padding: 2.78px 0 0 10px;
+}
+
+.email-box button {
+  border: none;
+  height: 72px;
+  width: 200px;
+  background-color: #f40612;
+  color: white;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.email-box button:hover {
+  background-color: #ca0a14;
+  transition: 0.3s;
+}
+
+.info-1,
+.info-2 {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #000000;
+  color: white;
+  align-items: center;
+  border-bottom: 10px solid #222222;
+  padding-top: 70px;
+  padding-bottom: 80px;
+}
+
+.info-1 h1,
+.info-2 h1 {
+  font-size: 50px;
+}
+
+.info-1 p,
+.info-2 p {
+  font-size: 26px;
+  line-height: 34px;
+}
+
+.faq {
+  padding-top: 70px;
+  background-color: #000000;
+  color: white;
+  height: 500px;
+}
+
+.faq h1 {
+  text-align: center;
+  font-size: 50px;
+}
