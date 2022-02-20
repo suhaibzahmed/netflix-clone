@@ -46,7 +46,9 @@ const LandingPage = () => {
               alt="netflix logo"
             />
           </Link>
-          <button>Sign In</button>
+          <Link to="/login">
+            <button className="sign-in">Sign In</button>
+          </Link>
         </nav>
         <div className="email-box">
           <h1>

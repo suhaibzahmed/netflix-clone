@@ -24,9 +24,11 @@
   /* border: 1px solid red; */
 }
 
-.navbar > button {
+.sign-in {
   height: 40px;
-  width: 110px;
+  width: 100px;
+  /* text-align: center; */
+  padding: 10px;
   background-color: #e50914;
   border: none;
   border-radius: 5px;
@@ -38,7 +40,7 @@
   font-weight: 100;
 }
 
-.navbar button:hover {
+.sign-in:hover {
   background-color: #ca0a14;
   transition: 0.3s;
 }
