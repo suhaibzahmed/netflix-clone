@@ -8,7 +8,7 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route path="/" exact>
+        <Route exact path="/">
           <LandingPage />
         </Route>
         <Route path="/login">

@@ -92,6 +92,7 @@
 
 .info-1,
 .info-2 {
+  width: 100%;
   display: flex;
   justify-content: space-evenly;
   background-color: #000000;
@@ -117,10 +118,20 @@
   padding-top: 70px;
   background-color: #000000;
   color: white;
-  height: 500px;
+  height: 1000px;
 }
 
 .faq h1 {
   text-align: center;
   font-size: 50px;
+}
+
+.faqs {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  justify-content: space-around;
+  max-height: 1500px;
+  width: 800px;
+  margin: 70px auto;
 }
