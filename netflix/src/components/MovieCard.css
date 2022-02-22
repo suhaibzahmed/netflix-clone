@@ -1,0 +1,25 @@
+.movie-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+  margin: 0 120px 130px 120px;
+  border-radius: 10px;
+  /* border: 1px solid red; */
+  cursor: pointer;
+  transition: transform 1s;
+}
+
+.movie-card:hover {
+  transform: scale(1.07);
+}
+
+.movie-card img {
+  border-radius: 10px;
+}
+
+.movie-card p {
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+}
