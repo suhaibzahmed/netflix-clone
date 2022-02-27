@@ -1,0 +1,110 @@
+.movie-details-container {
+  display: flex;
+  /* border: 1px solid red; */
+  margin-top: 100px;
+  justify-content: space-around;
+  height: 700px;
+}
+
+.movie-poster {
+  width: 40%;
+  /* border: 1px solid blue; */
+}
+
+.movie-poster img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.movie-details {
+  width: 50%;
+  /* border: 1px solid green; */
+}
+
+.movie-title-rating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.movie-title-rating p {
+  font-size: 52px;
+  color: white;
+  font-weight: 500;
+}
+
+.movie-title-rating div {
+  color: white;
+  font-size: 32px;
+  display: flex;
+}
+
+.movie-title-rating span {
+  color: gold;
+  margin-left: 10px;
+}
+
+.year-runtime {
+  color: grey;
+  display: flex;
+  font-size: 16px;
+  /* border: 1px solid red; */
+  margin-top: -50px;
+  width: 50%;
+  justify-content: space-between;
+}
+
+.year-runtime span {
+  height: 8px;
+  border: 1px solid grey;
+  width: 13px;
+  margin: 0 20px;
+  color: grey;
+}
+
+.overview {
+  color: white;
+  margin-top: 60px;
+}
+
+.overview h1 {
+  font-size: 26px;
+  font-weight: 400;
+}
+
+.overview div {
+  height: 2px;
+  width: 100%;
+  background-color: grey;
+}
+
+.overview p {
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.genre {
+  font-size: 18px;
+  color: white;
+  margin-top: 80px;
+  display: flex;
+
+  align-items: center;
+}
+
+.genre li {
+  font-size: 16px;
+  line-height: 25px;
+  display: flex;
+}
+
+.genre-list {
+  margin-left: 10px;
+}
+
+.genre-head {
+  color: grey;
+  font-size: 19px;
+}
